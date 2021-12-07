@@ -94,5 +94,23 @@ header img {
 /* HEADER */
 
 /* INTERCAMBIOS */
-
+main {
+   width: 100%;
+   height: auto;
+   min-width: 320px;
+   background-color: var(--off-white);
+}
+.main-exchange-container {
+   width: 100%;
+   height: auto;
+   padding-top: 80px;
+   padding-bottom: 30px;
+   text-align: center;
+}
+.main-exchange-container--title {
+   width: 100%;
+   min-width: 288px;
+   max-width: 900px;
+   margin: 0 auto; /* centramos el contenido */
+}
 /* INTERCAMBIOS */
