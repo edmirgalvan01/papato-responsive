@@ -392,11 +392,10 @@ main {
    border-radius: 15px;
    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
-.recommended {
+.saving {
    position: absolute;
    width: 120px;
    height: 31px;
-   background-color: var(--bitcoin-orange);
    border-radius: 8px;
    color: var(--just-white);
    left: calc(50% - 60px);
@@ -404,6 +403,16 @@ main {
    font-size: 1.2rem;
    font-weight: bold;
    padding: 6px;
+}
+.recommended {
+   background-color: var(--bitcoin-orange);
+}
+.annual {
+   background-color: var(--secondary-blue);
+}
+.basic {
+   background-color: var(--black);
+   color: var(--just-white);
 }
 .plan-card--title {
    padding-top: 30px;
@@ -430,7 +439,8 @@ main {
 }
 .plan-card--ca {
    background-color: #faf8f7;
-   border: 2px solid var(--bitcoin-orange);
+   border: none;
+   box-shadow: -1px 3px 7px -2px rgba(83, 73, 30, 0.75);
    border-radius: 4px;
    width: 150px;
    height: 48px;
@@ -450,5 +460,11 @@ main {
 }
 .plan-recommended {
    border: 2px solid var(--bitcoin-orange);
+}
+.plan-basic {
+   border: 2px solid var(--black);
+}
+.plan-annual {
+   border: 2px solid var(--secondary-blue);
 }
 /* PLANES */
