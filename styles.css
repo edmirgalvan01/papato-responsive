@@ -292,7 +292,7 @@ main {
    padding: 15px;
    min-width: 288px;
    max-width: 400px;
-   height: 150px;
+   min-height: 150px;
    margin: 15px auto;
    background-color: var(--black);
    border-radius: 5px;
