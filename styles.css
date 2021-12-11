@@ -137,6 +137,15 @@ main {
    line-height: 1.6rem;
    color: #757575;
 }
+.main-tables-container {
+   display: flex;
+   gap: 10px;
+   height: 400px;
+   overflow-x: scroll;
+   overscroll-behavior-x: contain;
+   scroll-snap-type: x proximity;
+   padding: 0 20px;
+}
 .main-currency-table,
 .main-commission-table {
    width: 70%;
@@ -145,6 +154,7 @@ main {
    height: 360px;
    margin: 0 auto;
    font-family: 'Inter', sans-serif;
+   scroll-snap-align: center;
 }
 .main-commission-table .commission-table--title {
    margin-bottom: 15px;
