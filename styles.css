@@ -160,7 +160,7 @@ main {
    margin-bottom: 15px;
    font-size: 1.8rem;
    font-weight: bold;
-   text-align: left;
+   text-align: center;
    line-height: 2.3rem;
    color: var(--secondary-blue);
 }
@@ -168,7 +168,7 @@ main {
    margin-bottom: 15px;
    font-size: 1.8rem;
    font-weight: bold;
-   text-align: left;
+   text-align: center;
    line-height: 2.3rem;
    color: var(--bitcoin-orange);
 }
